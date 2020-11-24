@@ -1,6 +1,6 @@
 Package: com.0x7ff.dimentio
 Name: dimentio
-Version: 1.0.6
+Version: 2.0.0
 Architecture: iphoneos-arm
 Description: PoC tool for setting/getting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Maintainer: 1Conan <tweaks@1conan.com>

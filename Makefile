@@ -1,6 +1,6 @@
 include $(THEOS)/makefiles/common.mk
 
-ARCHS = arm64 arm64e
+ARCHS = armv7 arm64 arm64e
 
 ifeq ($(THEOS_LINKAGE_TYPE),dynamic)
 SOVERSION = .0
