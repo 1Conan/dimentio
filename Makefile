@@ -1,6 +1,6 @@
 include $(THEOS)/makefiles/common.mk
 
-ARCHS = arm64
+ARCHS = arm64 arm64e
 
 ifeq ($(THEOS_LINKAGE_TYPE),dynamic)
 SOVERSION = .0
@@ -10,7 +10,6 @@ endif
 
 LIBRARY_NAME = libdimentio$(SOVERSION)
 libdimentio$(SOVERSION)_FILES = src/libdimentio.c
-libdimentio$(SOVERSION)_CFLAGS = -D__arm64e__
 libdimentio$(SOVERSION)_FRAMEWORKS = IOKit
 
 TOOL_NAME = dimentio
